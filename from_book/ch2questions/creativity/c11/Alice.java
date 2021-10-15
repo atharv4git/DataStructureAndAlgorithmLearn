@@ -1,8 +1,18 @@
 package from_book.ch2questions.creativity.c11;
 
-public class Alice extends Bob {
-    Bob b1 = new Bob();
+import java.util.Scanner;
+
+public class Alice {
+    public static int numpack;
     public static void main(String[] args) {
-        IncreaseInPackage();
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("enter no. of packages you wanna send: ");
+        numpack = scanner.nextInt();
+
+
+        scanner.close();
+
     }
+   
 }
