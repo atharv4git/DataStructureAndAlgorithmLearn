@@ -1,15 +1,25 @@
 package from_book.ch2questions.creativity.c11;
 
+import java.io.*;
+
 public class Bob {
-    int inpackage = 0;
+    public static String inpack;
+    public static void main(String[] args) {
 
-    public void increment(){
-        inpackage++;
+        BufferedReader br = null;
+        try{
+            br = new BufferedReader(new FileReader("c11f1.txt"));
+            inpack = br.readLine();
+        
+        }catch(IOException e){
+
+        }  
+        System.out.println(inpack);
+
     }
-
-    public void decrement(){
-        inpackage--;
+    public static void decrease(){
+        int i=Integer.parseInt(inpack);  
+        i--;
     }
-
     
 }

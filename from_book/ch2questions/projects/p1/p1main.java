@@ -12,6 +12,8 @@ public class p1main {
         aaaaa
         aaaaa
         bbb
+        sssssss
+        wqqfecdesddddw
         """
         ;
 
