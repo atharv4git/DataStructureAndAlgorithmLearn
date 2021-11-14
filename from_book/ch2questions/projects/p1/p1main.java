@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class p1main {
 
     public static void main(String[] args) {
+        double now =System.currentTimeMillis();
         Scanner scanner = new Scanner(System.in);
 
         String s = """
@@ -137,6 +138,8 @@ public class p1main {
         
 
         scanner.close();
+
+        System.out.println("time taken = "+(System.currentTimeMillis()-now)+" milliseconds");
     }
     
 }
