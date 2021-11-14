@@ -5,5 +5,6 @@ public class b extends a {
     public static void main(String[] args) {
         a a1 = new a();
         a1.changex(45);
+        a1.changex(45);
     }
 }
